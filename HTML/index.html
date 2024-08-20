@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        header,footer{
+            background-color: rgb(236, 174, 192);
+            color: black;
+            text-align: center;
+            padding: 10px;
+        }
+        main{
+            padding: 10px;
+        }
+        section{
+            margin-bottom: 20px;
+            border: 1px solid gray;
+            padding: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>1. Estructura basica del documento HTML </h1> 
+        <p>
+            Este documento HTML tiene una estructura basica que incluye la declaracion del DOCTYPE, etiquetas de metadatos y un titulo
+        </p>
+    </header>
+    <main>  
+
+        
+<!-- Encabezados y propiedades del texto -->
+        <section> 
+            <div>
+                <h2> 2. Encabezados y propiedades del texto</h2>
+                <p><b> Esto es un texto en negrita</b></p>
+                <p> <em> Esto es un texto en cursiva</em></p>
+                <p> <mark> Esto es un texto resaltado</mark></p>
+                <p> <u> Esto es un texto subrayado</u></p>
+            </div>
+        </section>
+<!-- Divisiones y agrupaciones de contenido -->
+        <section>
+            <div> 
+                <h2> 3. Divisiones y agrupaciones de contenido</h2>
+                <div> 
+                    <h3> Seccion 1</h3>
+                    <p> contenido de la primera seccion agrupada en un div</p>
+                </div>
+                <div> 
+                    <h3> Seccion 2 </h3>
+                    <p> contenido de la seccion dos agrupada en un div</p>
+                </div>
+
+            </div>
+        </section>
+            
+
+<!-- Enlaces y listas -->
+        <section>
+            <div>
+                <h2> 4.Enlaces y listas</h2>
+                <p>Visita nuestro <a href= "https://www4.frm.utn.edu.ar/"> sitio web  </a>para mas informacion</p>
+                <p>Enlaces internos</p>
+                <p>Listas ordenadas</p>
+                <ol> 
+                    <li> Primer Item de una lista ordenada</li>
+                    <li> Segundo Item de una lista ordenada</li>
+                </ol>
+                <p>Listas desordenadas:</p>
+                <ul> 
+                    <li> Primer Item de una lista ordenada</li>
+                    <li> Segundo Item de una lista ordenada</li>
+                </ul>
+                
+            </div>
+        </section>
+    
+
+    <!-- Elementos Multimedia -->
+        <section> 
+            <div>
+                <h1> 5.Elementos Multimedia</h1>
+               <p><audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" controls/> </p> 
+        
+               <p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCvB1A8NrEtl68jP0Y9U4FY3fxjeZIaY3clg&s" width="200px" height="200px" alt=""/></p> 
+               <p> <video
+                 src="https://video-previews.elements.envatousercontent.com/5b3b6876-9689-4cfe-9692-1cf061a156f6/watermarked_preview/watermarked_preview.mp4" 
+                 controls width="200px" height="200px"/></p> 
+                 
+            </div>
+        </section>
+    
+
+    <!-- Tablas -->
+        <section> 
+            <div>
+                <h2>6.Tablas</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Columna 1</th>
+                            <th>Columna 2</th>
+                        </tr>
+        
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> Dato 1</td>
+                            <td> Dato 2</td>
+                        </tr>
+                        <tr>
+                            <td> Dato 3</td>
+                            <td> Dato 4</td>
+                        </tr>
+        
+                    </tbody>
+                    <tfoot>
+        
+                    </tfoot>
+        
+                </table>
+            </div>
+
+        </section>
+     
+
+     <!-- Formularios -->
+        <section> 
+            <h2> 7. Formularios</h2>
+        
+            <form>
+            <div> <label>Nombre</label>
+                <input type="text" placeholder="Ingrese su nombre"/>
+            </div>
+            <div> 
+            <label>Email</label>
+            <input type="email" placeholder="example@example.com" />
+            </div>
+            <div>
+            <label>Mensaje</label>
+            <textarea> </textarea>
+            </div>
+            <div>
+            <button type="submit">Enviar formulario</button>
+            </div>
+            
+    
+            </form>
+        </section>
+    </main> 
+    <footer>
+        <p>Bazán Franco TP:HTML 2024</p>
+    </footer>
+</body>
+</html>
